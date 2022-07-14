@@ -1,10 +1,10 @@
 # Streamn Python SDK
 
-This [Streamn](https://www.streamn.ai) Python SDK provides convenient access to the Streamn API's using Python language. 
+This [Streamn](https://www.streamn.ai) Python SDK provides convenient access to the Streamn API's.
 
 ## Documentation
 
-See the [Python API docs](https://docs.streamn.ai/)
+See the [API docs](https://docs.streamn.ai/)
 
 ### Requirements
 
@@ -14,13 +14,11 @@ See the [Python API docs](https://docs.streamn.ai/)
 
 First make sure that Python is installed in your system.
 
-<!--
 ```sh
 pip install --upgrade streamn
 ```
--->
 
-> install using github repo:
+<!-- > install using github repo:
 
 ```
 1. clone this repo
@@ -29,7 +27,7 @@ pip install --upgrade streamn
 4. activate the virtualenv ( source virtualenvName/bin/activate)
 5. install required libraries ( pip3 install -r requirements.txt )
 6. call the required fucntion from the utils file and add it in your code 
-```
+``` -->
 
 ## Configuration
 
