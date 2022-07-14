@@ -22,7 +22,7 @@ streamns APIs provide the functionality for processing audio/Video files and ret
     >LanguageModelName | optional |  the language model name to be used for the transcribe job.
     
     >returns status_code and transcript
-    >click [here](https://github.com/saireddy12/streamn_python_sdk/examples/transcribe_audio.py) to check the usage example
+    >click [here](https://github.com/saireddy12/streamn_sdk/examples/transcribe_audio.py) to check the usage example
 
 
 2. get_audiolab_transcript:
@@ -35,7 +35,7 @@ streamns APIs provide the functionality for processing audio/Video files and ret
     
     >returns status_code and transcript with audio lab score for each word
 
-    >click [here](https://github.com/saireddy12/streamn_python_sdk/examples/get_audiolab_transcript.py) to check the usage example
+    >click [here](https://github.com/saireddy12/streamn_sdk/examples/get_audiolab_transcript.py) to check the usage example
     
 
 3. get_improved_transcript:
@@ -48,4 +48,4 @@ streamns APIs provide the functionality for processing audio/Video files and ret
     
     >returns status_code and transcript with audio lab score for each word
 
-    >click [here](https://github.com/saireddy12/streamn_python_sdk/examples/get_improved_transcipt.py) to check the usage example
+    >click [here](https://github.com/saireddy12/streamn_sdk/examples/get_improved_transcipt.py) to check the usage example
