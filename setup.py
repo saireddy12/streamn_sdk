@@ -15,7 +15,7 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 setup(
     # This is the name of your project. 
     name="streamn",
-    version="1.0.0",  
+    version="1.0.1",  
     description="a python library to use Streamn API's ",
     long_description=long_description,  # Optional
     
