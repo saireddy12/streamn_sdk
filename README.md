@@ -1,6 +1,6 @@
 # Streamn Python SDK
 
-This Streamn Python SDK provides convenient access to the Streamn API's using Python language. 
+This [Streamn](https://www.streamn.ai) Python SDK provides convenient access to the Streamn API's using Python language. 
 
 ## Documentation
 
