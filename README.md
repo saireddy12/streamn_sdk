@@ -41,7 +41,7 @@ Example of 'streamn_cofig.json' file
 
 ```conf
 {
-'api_key':'asaisdniasnasnfjasdfn_asjhnadjsdsa'
+    "api_key":"asaisdniasnasnfjasdfn_asjhnadjsdsa"
 }
 ```
 ## A Transcript generation Example

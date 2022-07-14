@@ -1,0 +1,13 @@
+#python temp files
+__pycache__/
+**/*.pyc
+
+build/
+dist/
+Symbl.egg-info/
+.coverage
+.idea/
+.vscode/
+
+#virtual env
+virtualenv/
