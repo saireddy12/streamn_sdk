@@ -1,5 +1,5 @@
-from src.streamnai.libraries import *
-from config import *
+from streamnai.libraries import *
+from streamnai.config import *
 import time
 
 

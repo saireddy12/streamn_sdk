@@ -20,7 +20,8 @@ setup(
     long_description=long_description,  # Optional
     
     long_description_content_type="text/markdown",  # Optional (see note above)
-    url="https://github.com/saireddy12/streamn_sdk",  # Optional
+    #url="https://github.com/saireddy12/streamn_sdk",  # Optional
+    url="",
     # This should be your name or the name of the organization which owns the
     # project.
     author="B. sai reddy Developer",  # Optional
@@ -98,6 +99,6 @@ setup(
     project_urls={  # Optional
         "Bug Reports": "https://github.com/saireddy12/streamn_sdk/issues",
         "Source": "https://github.com/saireddy12/streamn_sdk",
-        "Contact": "contact@streamn.ai"
+        #"Contact": "contact@streamn.ai"
     },
 )

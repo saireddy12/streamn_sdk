@@ -1,5 +1,5 @@
-from src.streamnai.libraries import *
-from src.streamnai.utils import process_audio
+from streamnai.libraries import *
+from streamnai.utils import process_audio
 
 #initalize the class 
 process_audio_obj = process_audio()
