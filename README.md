@@ -46,17 +46,34 @@ Example of 'streamn_cofig.json' file
 
 
 ```python
-import streamn
+import streamnai
 
 # Process audio file
-status , transcipt = streamn.utils.process_audio.get_transcript( audio_file_path = <audio file path to transcibe> , is_medical = <bool, True or Flase> )
+status , transcipt = streamnai.process_audio.transcribe_audio( audio_file_path = <audio file path to transcibe> , is_medical = <bool, True or Flase> , vocabulary_name = <string, vocab name>  , LanguageModelName = <string,language model name >  )
+
+```
+## A Transcript with Audiolab scores generation Example
+
+```python
+import streamnai
+
+# Process audio file
+status , transcipt = streamnai.process_audio.get_audiolab_transcript(audio_file_path = <audio file path to transcibe> , is_medical = <bool, True or Flase> , vocabulary_name = <string, vocab name>  , LanguageModelName = <string,language model name >  )
 
 ```
 
-To know more about conversation object and it's functions, click [here][extended_readme-conversation-object]
+## A Improved Transcript generation Example
 
+```python
+import streamnai
 
-### Add other features
+# Process audio file
+status , transcipt = streamnai.process_audio.get_improved_transcript( audio_file_path = <audio file path to transcibe> , is_medical = <bool, True or Flase> , vocabulary_name = <string, vocab name>  , LanguageModelName = <string,language model name >  )
+
+```
+
+To know more about these functions and parameters, click [here][extended-readme-functions-object]
+
 
 
 ## Need support
@@ -64,3 +81,4 @@ To know more about conversation object and it's functions, click [here][extended
 If the above doesn't help, do let us know at contact@streamn.ai
 
 [symbl-docs]: https://docs.streamn.ai/
+[extended-readme-functions-object]: https://github.com/saireddy12/streamn_sdk/blob/main/src/streamnai/README.md
